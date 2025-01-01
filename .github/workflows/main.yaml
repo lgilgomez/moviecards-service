@@ -53,7 +53,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: moviecards-java
+          name: moviecards-service-java
       
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
