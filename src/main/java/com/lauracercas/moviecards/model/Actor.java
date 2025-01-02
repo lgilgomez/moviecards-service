@@ -71,7 +71,7 @@ public class Actor {
         return deadDate;
     }
 
-    public void setDeadDate(Date birthDate) {
+    public void setDeadDate(Date deadDate) {
         this.deadDate = deadDate;
     }
 
